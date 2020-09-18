@@ -20,6 +20,7 @@ export const Flex = styled.div`
   width: ${(props) => props.fullWidth && "100%"};
   justify-content: ${(props) => props.justifyContent || "center"};
   align-items: ${(props) => props.alignItems || "center"};
+  text-align: center;
   color: #dddddd;
   font-size: ${(props) => props.fontSize}rem;
   flex-direction: ${(props) => props.direction};

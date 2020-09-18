@@ -7,14 +7,15 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import IconButton from "../common/IconButton";
-import pdf from "../../assets/testresume.pdf";
+import resume from "../../assets/danlinresume.pdf";
+import projects from "../../assets/danlinprojects.pdf";
 
 import { Section, Flex } from "../common/Layout";
 
 function Landing(props) {
   return (
     <Section bgColor="#878787">
-      <Flex direction="column" fullHeight fontSize={8} container>
+      <Flex direction="column" fullHeight fontSize={6} container>
         <Flex direction="column">
           <Fade in timeout={1500}>
             <div>DANLIN ZHOU</div>
@@ -22,17 +23,21 @@ function Landing(props) {
           <Fade in timeout={3000}>
             <Flex
               direction="row"
-              fontSize={3}
+              fontSize={2.5}
               justifyContent="space-between"
               fullWidth
             >
-              <IconButton icon={faFile} label="resume" link={pdf} />
+              <IconButton icon={faFile} label="resume" link={resume} />
               <IconButton
                 icon={faLinkedin}
                 label="linkedin"
                 link="https://www.linkedin.com/in/danlin-z/"
               />
-              <IconButton icon={faProjectDiagram} label="projects" link={pdf} />
+              <IconButton
+                icon={faProjectDiagram}
+                label="projects"
+                link={projects}
+              />
               <IconButton
                 icon={faEnvelope}
                 label="email"
