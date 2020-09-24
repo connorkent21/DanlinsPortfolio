@@ -7,7 +7,7 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import IconButton from "../common/IconButton";
-import resume from "../../assets/danlinresume.pdf";
+import resume from "../../assets/danlinzhouresume.pdf";
 import projects from "../../assets/danlinprojects.pdf";
 
 import { Section, Flex } from "../common/Layout";
