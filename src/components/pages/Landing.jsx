@@ -41,7 +41,7 @@ function Landing(props) {
               <IconButton
                 icon={faEnvelope}
                 label="email"
-                link="mailto:danlinsemail@danlin.com"
+                link="mailto:d49zhou@uwaterloo.ca"
               />
             </Flex>
           </Fade>
