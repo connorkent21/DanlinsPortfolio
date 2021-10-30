@@ -27,7 +27,6 @@ function Landing(props) {
               justifyContent="space-between"
               fullWidth
             >
-              <IconButton icon={faFile} label="resume" link={resume} />
               <IconButton
                 icon={faLinkedin}
                 label="linkedin"
